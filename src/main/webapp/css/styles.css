@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Container cards */
+.container {
+    max-width: 800px;
+}
+
+/* Forms */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button, .btn {
+    border-radius: 8px !important;
+}
+
+/* Tables */
+table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Success & error messages */
+.text-success {
+    font-weight: bold;
+}
+
+.text-danger {
+    font-weight: bold;
+}
